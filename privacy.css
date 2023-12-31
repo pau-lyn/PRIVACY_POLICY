@@ -1,0 +1,115 @@
+@import "navbar.css";
+
+.info-active{
+    background-color: #002628;
+    color: #FDFDFD;
+}
+.card {
+    width: 100%;
+    height: 20%;
+    border-radius: 0;
+    padding: 5px;
+    background-image: linear-gradient(144deg,#002628, #106469 50%,#20A2AA);
+}
+   
+.card__content {
+    background: 20A2AA;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.card .title {
+    margin-top: 5%;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding: 0px 0 0 0;
+}
+/*-------------terms----------------*/
+
+.terms h1{
+    margin-top: 5%;
+    position: relative;
+    padding-left: 15%;
+    text-align: left;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.terms p{
+    margin: 20px;
+    position: relative;
+    padding-left: 15%;
+    padding-right: 20%;
+    font-size: 15px;
+    display: block;
+    align-items: center;
+    justify-content: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.terms h2{
+    margin: 20px;
+    position: relative;
+    padding-left: 15%;
+    padding-right: 20%;
+    font-size: 15px;
+    display: block;
+    align-items: center;
+    justify-content: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*-------------footer----------------*/
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(144deg,#002628, #106469 50%,#20A2AA);
+    text-align: center;
+    color: white;
+    padding: 20px;
+ }
+
+@media screen and (max-width: 768px) {
+
+    /*----card-*/
+    .card {
+        padding: 50px 0 0 0; /* Adjust padding for smaller screens */
+    }
+
+    .title,
+    .date {
+        margin-top: 10%; /* Adjust margin for smaller screens */
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+
+    /*-------------terms----------------*/
+
+    .terms h1 {
+        padding-left: 5%; /* Adjust padding for smaller screens */
+    }
+
+    .terms p,
+    .terms h2 {
+        padding-left: 5%; /* Adjust padding for smaller screens */
+        padding-right: 5%; /* Adjust padding for smaller screens */
+    }
+
+    /*-------------footer----------------*/
+
+    .footer {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
